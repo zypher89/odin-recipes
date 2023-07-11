@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagne</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <h1>Lasagne</h1>
-    <img src="images/lasagne.jpg" alt="Lasagne">
+
+    <!--image of lasagne-->
+    <img src="/Users/Troy/repos/odin-recipes/images/lasagne.jpg" alt="Lasagne">
 
     <h2>Pictured: Lasagna</h2>
 
     <p>Yum, look at this lasagne.</p>
 
+
+    <!--unordered list of ingredients-->
     <h4>Ingredients</h4>
     <ul>
         <li>Mince</li>
@@ -20,11 +26,41 @@
         <li>White Sauce</li>
     </ul>
 
+    <!--ordered list of steps-->
     <h4>Steps</h4>
     <ol>
         <li>Cook Mince</li>
         <li>Add Sauce</li>
     </ol>
     
+    <!-- added div to see css in action -->
+    <div>Hello, World!</div>
+    <div>Hello again!</div>
+    <p>Hi...</p>
+    <div>Okay, bye.</div>
+
+    <div class="alert-text">Please agree to our terms of service.</div>
+
+    <div id="title">My Awesome 90's Page</div>
+
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <p class="subsection" id="preview">
+          This is where a preview for a post might go.
+        </p>
+      </div>
+
+
+    <!--ancestor is green like div, but .contents is pink-->
+      <div class="ancestor">
+        <p>Ancestor A</p>
+        <div class="contents">
+          <p>Ancestor B</p>
+          <div class="contents">Ancestor C </div>
+        </div>
+      </div>
+      
+      <div class="contents"></div>
+      <!-- D -->
 </body>
 </html>
